@@ -1,2 +1,26 @@
-# ArtWalkBackEnd
-Construye una app para amantes del arte.La API de Google Arts &amp; Culture muestra obras famosas con descripciones, la API de Google Vision permite cargar imágenes de obras encontradas en galerías y museos para obtener información en tiempo real, y la API de Google Maps muestra la ubicación de galerías y museos cercanos al usuario para visitas
+# BackEnd
+
+
+ArtWalk Backend Application
+This is a frontend application built using Django. Build an app for art lovers. The Google Arts &amp; Culture shows famous works with descriptions, the Google Vision API allows uploading images of works found in galleries and museums for real-time information, and the Google Maps API shows the location of galleries and museums near the user for visits
+
+## Installation
+1. Clone the repository: 
+```bash
+git clone git@github.com:nelsonCastellanos/ArtWalkBackEnd.git
+```
+2. Install dependencies: 
+```python
+pip install -r requirements.txt
+```
+
+## Usage
+1. Start the development server: 
+```python
+python manage.py runserver
+```
+2. Open the application in your browser at http://localhost:8000
+
+
+## Technologies Used
+1. Django: A high-level Python web framework that enables rapid development of secure and maintainable websites
